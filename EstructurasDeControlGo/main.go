@@ -18,11 +18,11 @@ func main() {
 	}
 
 	if t := time.Now(); t.Hour() < 12 {
-		fmt.Println("Mañana!")
+		fmt.Println("¡Mañana!")
 	} else if t.Hour() < 17 {
-		fmt.Println("Tarde!")
+		fmt.Println("¡Tarde!")
 	} else {
-		fmt.Println("Noche!")
+		fmt.Println("¡Noche!")
 	}
 
 	switch os := runtime.GOOS; os {
@@ -41,13 +41,13 @@ func main() {
 
 	switch t := time.Now(); {
 	case t.Hour() < 12:
-		fmt.Println("Mañana!")
+		fmt.Println("¡Mañana!")
 
 	case t.Hour() < 17:
-		fmt.Println("Tarde!")
+		fmt.Println("¡Tarde!")
 
 	default:
-		fmt.Println("Noche!")
+		fmt.Println("¡Noche!")
 	}*/
 
 }
